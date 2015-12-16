@@ -1,0 +1,103 @@
+<universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v33_0" xmlns:common_v33_0="http://www.travelport.com/schema/common_v33_0" xmlns:air="http://www.travelport.com/schema/air_v33_0" TraceId="815b71cc-f364-4f31-8906-862cbc3e9009" TransactionId="8A7D80410A07643BD914C58A25D9B4CA" ResponseTime="3069">
+    <common_v33_0:ResponseMessage Code="3370" Type="Warning" ProviderCode="1G">The Credit Card Holder Name is only saved locally for the requested provider.</common_v33_0:ResponseMessage>
+    <common_v33_0:ResponseMessage Code="3068" Type="Warning" ProviderCode="1G">Additional details like Billing Address, Phone Number is saved locally for the requested provider.</common_v33_0:ResponseMessage>
+    <common_v33_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">Some of the requested AirPricingInfos could not be saved for the requested provider.</common_v33_0:ResponseMessage>
+    <common_v33_0:ResponseMessage Code="3715" Type="Warning" ProviderCode="1G">Host only allows one Address/Delivery Address. Only one sent in request.</common_v33_0:ResponseMessage>
+    <common_v33_0:ResponseMessage Code="3029" Type="Warning" ProviderCode="1G">Some of the prices could not be stored because either flight departure time changes have occurred or some of the segments failed to be sold. Please verify connections, then price and store again.</common_v33_0:ResponseMessage>
+    <universal:UniversalRecord LocatorCode="K81J58" Version="0" Status="Active">
+        <common_v33_0:BookingTraveler Key="SUFueWJNaVlCZlBZajJPTg==" TravelerType="ADT" Age="40" DOB="1975-12-10" Gender="M" ElStat="A">
+            <common_v33_0:BookingTravelerName Prefix="Mr" First="John" Last="Smith" />
+            <common_v33_0:DeliveryInfo>
+                <common_v33_0:ShippingAddress Key="SUFueWJNaVlCZlBZajJPTg==" ElStat="A">
+                    <common_v33_0:AddressName>JOHNMR SMITH</common_v33_0:AddressName>
+                    <common_v33_0:Street>Via Augusta 59 5</common_v33_0:Street>
+                    <common_v33_0:City>Madrid</common_v33_0:City>
+                    <common_v33_0:State>IA</common_v33_0:State>
+                    <common_v33_0:PostalCode>50156</common_v33_0:PostalCode>
+                    <common_v33_0:Country>US</common_v33_0:Country>
+                    <common_v33_0:ProviderReservationInfoRef Key="KKDZBsqBS+OFt0E8Z/MduA==" />
+                </common_v33_0:ShippingAddress>
+                <common_v33_0:ProviderReservationInfoRef Key="KKDZBsqBS+OFt0E8Z/MduA==" />
+            </common_v33_0:DeliveryInfo>
+            <common_v33_0:PhoneNumber Key="I+JJYjjkSOSXjSlomG2a0w==" Type="None" Location="DEN" CountryCode="1" Number="123456789" AreaCode="303" ElStat="A">
+                <common_v33_0:ProviderReservationInfoRef Key="KKDZBsqBS+OFt0E8Z/MduA==" />
+            </common_v33_0:PhoneNumber>
+            <common_v33_0:Email Key="D8j7IPClQPS0Jaxz7U2EHg==" EmailID="johnsmith@travelportuniversalapidemo.com" ElStat="A">
+                <common_v33_0:ProviderReservationInfoRef Key="KKDZBsqBS+OFt0E8Z/MduA==" />
+            </common_v33_0:Email>
+            <common_v33_0:Address Key="EdbcFLR6SpqxQF1S6f2qXQ==" ElStat="A">
+                <common_v33_0:AddressName>DemoSiteAddress</common_v33_0:AddressName>
+                <common_v33_0:Street>Via Augusta 59 5</common_v33_0:Street>
+                <common_v33_0:City>Madrid</common_v33_0:City>
+                <common_v33_0:State>IA</common_v33_0:State>
+                <common_v33_0:PostalCode>50156</common_v33_0:PostalCode>
+                <common_v33_0:Country>US</common_v33_0:Country>
+                <common_v33_0:ProviderReservationInfoRef Key="KKDZBsqBS+OFt0E8Z/MduA==" />
+            </common_v33_0:Address>
+        </common_v33_0:BookingTraveler>
+        <common_v33_0:BookingTraveler Key="ZmVvcUNkbTd2SFJMeTRUTQ==" TravelerType="CNN" Age="10" DOB="2005-12-10" Gender="M" ElStat="A">
+            <common_v33_0:BookingTravelerName Prefix="Mr" First="Michael" Last="Scott" />
+            <common_v33_0:PhoneNumber Key="QKmSsUs5RbOg6inBD0c5Hg==" Type="None" Location="DEN" CountryCode="1" Number="123456789" AreaCode="303" ElStat="A">
+                <common_v33_0:ProviderReservationInfoRef Key="KKDZBsqBS+OFt0E8Z/MduA==" />
+            </common_v33_0:PhoneNumber>
+            <common_v33_0:Email Key="JGWtCjazRgaHZ8uy+1mlDw==" EmailID="MichaelScott@travelportuniversalapidemo.com" ElStat="A">
+                <common_v33_0:ProviderReservationInfoRef Key="KKDZBsqBS+OFt0E8Z/MduA==" />
+            </common_v33_0:Email>
+            <common_v33_0:Address Key="d4KzqBltQYK0W0R9Tgonag==" ElStat="A">
+                <common_v33_0:AddressName>DemoSiteAddress</common_v33_0:AddressName>
+                <common_v33_0:Street>Via Augusta 59 5</common_v33_0:Street>
+                <common_v33_0:City>Madrid</common_v33_0:City>
+                <common_v33_0:State>IA</common_v33_0:State>
+                <common_v33_0:PostalCode>50156</common_v33_0:PostalCode>
+                <common_v33_0:Country>US</common_v33_0:Country>
+            </common_v33_0:Address>
+        </common_v33_0:BookingTraveler>
+        <common_v33_0:ActionStatus Key="lDUtfFpkRZilE0kjr4js2g==" Type="ACTIVE" ProviderReservationInfoRef="KKDZBsqBS+OFt0E8Z/MduA==" ProviderCode="1G" ElStat="A" />
+        <universal:ProviderReservationInfo Key="KKDZBsqBS+OFt0E8Z/MduA==" ProviderCode="1G" LocatorCode="SX7T1Y" CreateDate="2015-12-10T06:04:22.586+00:00" ModifiedDate="2015-12-10T06:04:22.586+00:00" HostCreateDate="2015-12-10" OwningPCC="6G2D" />
+        <air:AirReservation LocatorCode="M9M02J" CreateDate="2015-12-10T06:04:22.034+00:00" ModifiedDate="2015-12-10T06:04:22.586+00:00">
+            <common_v33_0:BookingTravelerRef Key="SUFueWJNaVlCZlBZajJPTg==" />
+            <common_v33_0:BookingTravelerRef Key="ZmVvcUNkbTd2SFJMeTRUTQ==" />
+            <common_v33_0:ProviderReservationInfoRef Key="KKDZBsqBS+OFt0E8Z/MduA==" />
+            <air:AirSegment Key="WJhjfIS3REGwktyQxZuwfQ==" Group="0" Carrier="AI" CabinClass="Economy" FlightNumber="274" ProviderCode="1G" Origin="CMB" Destination="MAA" DepartureTime="2015-12-15T17:05:00.000+05:30" ArrivalTime="2015-12-15T18:30:00.000+05:30" TravelTime="85" ClassOfService="M" ETicketability="No" Status="PN" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="KKDZBsqBS+OFt0E8Z/MduA==" TravelOrder="1" OptionalServicesIndicator="false" ElStat="A">
+                <air:FlightDetails Key="iUzHXeduQ7mbgbQ8e6EuvQ==" Origin="CMB" Destination="MAA" DepartureTime="2015-12-15T17:05:00.000+05:30" ArrivalTime="2015-12-15T18:30:00.000+05:30" FlightTime="85" TravelTime="85" Equipment="321" DestinationTerminal="4" ElStat="A" />
+                <common_v33_0:SellMessage>*SECURED SELL NOT AVAILABLE*</common_v33_0:SellMessage>
+                <common_v33_0:SellMessage>ARRIVES MAA TERMINAL 4</common_v33_0:SellMessage>
+                <common_v33_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v33_0:SellMessage>
+                <common_v33_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v33_0:SellMessage>
+                <common_v33_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v33_0:SellMessage>
+                <common_v33_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v33_0:SellMessage>
+            </air:AirSegment>
+            <air:AirSegment Key="8bHhGcUXSA+L6TE6QzYCXQ==" Group="1" Carrier="AI" CabinClass="Economy" FlightNumber="346" ProviderCode="1G" Origin="MAA" Destination="SIN" DepartureTime="2015-12-16T11:35:00.000+05:30" ArrivalTime="2015-12-16T18:30:00.000+08:00" TravelTime="265" ClassOfService="M" ETicketability="No" Status="PN" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="KKDZBsqBS+OFt0E8Z/MduA==" TravelOrder="2" OptionalServicesIndicator="false" ElStat="A">
+                <air:FlightDetails Key="0jzXfk47T26ZobTiW/Rb9g==" Origin="MAA" Destination="SIN" DepartureTime="2015-12-16T11:35:00.000+05:30" ArrivalTime="2015-12-16T18:30:00.000+08:00" FlightTime="265" TravelTime="265" Equipment="788" OriginTerminal="3" DestinationTerminal="2" ElStat="A" />
+                <common_v33_0:SellMessage>*SECURED SELL NOT AVAILABLE*</common_v33_0:SellMessage>
+                <common_v33_0:SellMessage>DEPARTS MAA TERMINAL 3  - ARRIVES SIN TERMINAL 2</common_v33_0:SellMessage>
+                <common_v33_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v33_0:SellMessage>
+                <common_v33_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v33_0:SellMessage>
+                <common_v33_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v33_0:SellMessage>
+                <common_v33_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v33_0:SellMessage>
+            </air:AirSegment>
+        </air:AirReservation>
+        <common_v33_0:AgencyInfo>
+            <common_v33_0:AgentAction ActionType="Created" AgentCode="UAPI6293555720" BranchCode="P105273" AgencyCode="S30126" EventTime="2015-12-10T06:04:19.750+00:00" />
+        </common_v33_0:AgencyInfo>
+        <common_v33_0:FormOfPayment Key="JrP+zkroS+qP8NV61qUfgw==" Type="Credit" Reusable="true" ProfileKey="zEz2HWSyQIyiqQrrQaWkWQ==" ElStat="A">
+            <common_v33_0:CreditCard Type="VI" Number="************1111" ExpDate="2015-12" Name="John Smith">
+                <common_v33_0:BillingAddress Key="X2RrxvLBSvambeXIhJFGAA==" ElStat="A">
+                    <common_v33_0:AddressName>DemoSiteAddress</common_v33_0:AddressName>
+                    <common_v33_0:Street>Via Augusta 59 5</common_v33_0:Street>
+                    <common_v33_0:City>Madrid</common_v33_0:City>
+                    <common_v33_0:State>IA</common_v33_0:State>
+                    <common_v33_0:PostalCode>50156</common_v33_0:PostalCode>
+                    <common_v33_0:Country>US</common_v33_0:Country>
+                </common_v33_0:BillingAddress>
+            </common_v33_0:CreditCard>
+            <common_v33_0:ProviderReservationInfoRef Key="KKDZBsqBS+OFt0E8Z/MduA==" />
+        </common_v33_0:FormOfPayment>
+    </universal:UniversalRecord>
+    <air:AirSegmentSellFailureInfo>
+        <air:AirSegmentError>
+            <air:AirSegment Key="MYH0RU/xQF++q4xOk1Z5PQ==" Group="1" Carrier="UL" FlightNumber="309" Origin="SIN" Destination="CMB" DepartureTime="2015-12-20T19:50:00.000+08:00" ArrivalTime="2015-12-20T21:10:00.000+05:30" ClassOfService="Q" ChangeOfPlane="false" OptionalServicesIndicator="false" />
+            <air:ErrorMessage>*0 AVAIL/WL CLOSED*</air:ErrorMessage>
+        </air:AirSegmentError>
+    </air:AirSegmentSellFailureInfo>
+</universal:AirCreateReservationRsp>

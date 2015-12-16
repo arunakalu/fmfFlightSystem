@@ -1,0 +1,152 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v33_0" xmlns:common_v33_0="http://www.travelport.com/schema/common_v33_0" xmlns:air="http://www.travelport.com/schema/air_v33_0" TraceId="941a175e-d575-4601-8107-cdfaf9962c0f" TransactionId="9EBC25410A07643BD914C58AE4B2E439" ResponseTime="4729">
+            <common_v33_0:ResponseMessage Code="3715" Type="Warning" ProviderCode="1P">
+                Host only allows one Address/Delivery Address. Only one sent in request.
+            </common_v33_0:ResponseMessage>
+            <common_v33_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1P">
+                The Credit Card Holder Name is only saved locally for the requested provider.
+            </common_v33_0:ResponseMessage>
+            <common_v33_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1P">
+                * NON ENDO * PRICING RULES VALIDATING CARRIER DEFAULT 9W
+            </common_v33_0:ResponseMessage>
+            <common_v33_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1P">* FARE MAY CHANGE UNLESS TICKETED *</common_v33_0:ResponseMessage>
+            <universal:UniversalRecord LocatorCode="ZM9Y4N" Version="0" Status="Active">
+                <common_v33_0:BookingTraveler Key="bnROcHRmZzdERzZNZEtYdg==" TravelerType="ADT" Age="40" DOB="1987-10-28" Gender="M" ElStat="A">
+                    <common_v33_0:BookingTravelerName Prefix="Mr" First="ruwan" Last="Aruna"/>
+                    <common_v33_0:PhoneNumber Key="EYWWmao2QbKUHyrZAH+otA==" Location="DEN" CountryCode="1" Number="123456789" AreaCode="303" ElStat="A">
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:PhoneNumber>
+                    <common_v33_0:Email Key="dcoXCQISSdO8qLAp47XGRQ==" EmailID="johnsmith@travelportuniversalapidemo.com" ElStat="A">
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:Email>
+                    <common_v33_0:SSR Key="8fg8XfOyRkmficGGXOqe8Q==" SegmentRef="UGVL8I1oS5CnDBN39L98DQ==" Status="NN" Type="INFT" FreeText="ARUNA/SURENMR 12DEC14" Carrier="9W" ProviderReservationInfoRef="cAb1xxsuRzWxLDC7nZ7cwA==" ElStat="A"/>
+                    <common_v33_0:NameRemark Key="FqR+OJA3QUGZm17YCWRnPA==" ElStat="A">
+                        <common_v33_0:RemarkData>28OCT87</common_v33_0:RemarkData>
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:NameRemark>
+                    <common_v33_0:Address Key="HGOEQu3RQtWqJIWuz/fdHg==" ElStat="A">
+                        <common_v33_0:AddressName>DemoSiteAddress</common_v33_0:AddressName>
+                        <common_v33_0:Street>Via Augusta 59 5</common_v33_0:Street>
+                        <common_v33_0:City>Madrid</common_v33_0:City>
+                        <common_v33_0:State>IA</common_v33_0:State>
+                        <common_v33_0:PostalCode>50156</common_v33_0:PostalCode>
+                        <common_v33_0:Country>US</common_v33_0:Country>
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:Address>
+                </common_v33_0:BookingTraveler>
+                <common_v33_0:BookingTraveler Key="NHk4d1NzUjc2aUxQOXdMcQ==" TravelerType="ADT" Age="40" DOB="1987-10-28" Gender="M" ElStat="A">
+                    <common_v33_0:BookingTravelerName Prefix="Mr" First="ranil" Last="Aruna"/>
+                    <common_v33_0:PhoneNumber Key="RGjrl1eVTIqZmlgvNSiLoA==" Location="DEN" CountryCode="1" Number="123456789" AreaCode="303" ElStat="A">
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:PhoneNumber>
+                    <common_v33_0:Email Key="zP8dJZY6TZCFNeDmgfN0CQ==" EmailID="johnsmith@travelportuniversalapidemo.com" ElStat="A">
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:Email>
+                    <common_v33_0:NameRemark Key="xowG6w2vQr+nDjMiDHg/EQ==" ElStat="A">
+                        <common_v33_0:RemarkData>28OCT87</common_v33_0:RemarkData>
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:NameRemark>
+                    <common_v33_0:Address Key="olHWV5kxSXCmNYGUuBfTzg==" ElStat="A">
+                        <common_v33_0:AddressName>DemoSiteAddress</common_v33_0:AddressName>
+                        <common_v33_0:Street>Via Augusta 59 5</common_v33_0:Street>
+                        <common_v33_0:City>Madrid</common_v33_0:City>
+                        <common_v33_0:State>IA</common_v33_0:State>
+                        <common_v33_0:PostalCode>50156</common_v33_0:PostalCode>
+                        <common_v33_0:Country>US</common_v33_0:Country>
+                    </common_v33_0:Address>
+                </common_v33_0:BookingTraveler>
+                <common_v33_0:BookingTraveler Key="cXZZTDFhTnA5bDdXTWUwag==" TravelerType="CNN" Age="10" DOB="2005-12-09" Gender="M" ElStat="A">
+                    <common_v33_0:BookingTravelerName Prefix="Mr" First="nimal" Last="Aruna"/>
+                    <common_v33_0:PhoneNumber Key="LgOSZeGaQMuYACSYocUJwA==" Location="DEN" CountryCode="1" Number="123456789" AreaCode="303" ElStat="A">
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:PhoneNumber>
+                    <common_v33_0:Email Key="7x/COnmDRsWzO/0BfqqI5w==" EmailID="johnsmith@travelportuniversalapidemo.com" ElStat="A">
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:Email>
+                    <common_v33_0:SSR Key="dekzSDYQRs2mmTh9x62TEw==" Status="HK" Type="CHLD" FreeText="/09DEC05" Carrier="9W" ProviderReservationInfoRef="cAb1xxsuRzWxLDC7nZ7cwA==" ElStat="A"/>
+                    <common_v33_0:NameRemark Key="vhyyOa9rS/WWyIzfmifPog==" ElStat="A">
+                        <common_v33_0:RemarkData>09DEC05</common_v33_0:RemarkData>
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:NameRemark>
+                    <common_v33_0:Address Key="poZ5HQvJS5SJeG8aaxp2vA==" ElStat="A">
+                        <common_v33_0:AddressName>DemoSiteAddress</common_v33_0:AddressName>
+                        <common_v33_0:Street>Via Augusta 59 5</common_v33_0:Street>
+                        <common_v33_0:City>Madrid</common_v33_0:City>
+                        <common_v33_0:State>IA</common_v33_0:State>
+                        <common_v33_0:PostalCode>50156</common_v33_0:PostalCode>
+                        <common_v33_0:Country>US</common_v33_0:Country>
+                    </common_v33_0:Address>
+                </common_v33_0:BookingTraveler>
+                <common_v33_0:BookingTraveler Key="Y0ptcWxuaG9OTVQyek45dA==" TravelerType="INF" DOB="2014-12-12" Gender="M" ElStat="A">
+                    <common_v33_0:BookingTravelerName Prefix="Mr" First="suren" Last="Aruna"/>
+                    <common_v33_0:PhoneNumber Key="V8IuQMh0RiGu7R+J+n3wUg==" Location="DEN" CountryCode="1" Number="123456789" AreaCode="303" ElStat="A">
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:PhoneNumber>
+                    <common_v33_0:NameRemark Key="7+nop+WtSfyzwI9NjNvOew==" ElStat="M">
+                        <common_v33_0:RemarkData>12DEC14</common_v33_0:RemarkData>
+                        <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    </common_v33_0:NameRemark>
+                    <common_v33_0:Address Key="BmBz8aI5Q0KPI2R4f4gBpg==" ElStat="A">
+                        <common_v33_0:AddressName>DemoSiteAddress</common_v33_0:AddressName>
+                        <common_v33_0:Street>Via Augusta 59 5</common_v33_0:Street>
+                        <common_v33_0:City>Madrid</common_v33_0:City>
+                        <common_v33_0:State>IA</common_v33_0:State>
+                        <common_v33_0:PostalCode>50156</common_v33_0:PostalCode>
+                        <common_v33_0:Country>US</common_v33_0:Country>
+                    </common_v33_0:Address>
+                </common_v33_0:BookingTraveler>
+                <common_v33_0:ActionStatus Key="qMQ9pm8TQQqp976T4Hgr7g==" Type="ACTIVE" ProviderReservationInfoRef="cAb1xxsuRzWxLDC7nZ7cwA==" ProviderCode="1P" ElStat="A"/>
+                <universal:ProviderReservationInfo Key="cAb1xxsuRzWxLDC7nZ7cwA==" ProviderCode="1P" LocatorCode="N2WDJO" CreateDate="2015-12-14T04:25:13.898+00:00" ModifiedDate="2015-12-14T04:25:13.898+00:00" HostCreateDate="2015-12-14" OwningPCC="QWT"/>
+                <air:AirReservation LocatorCode="M9JJHF" CreateDate="2015-12-14T04:25:13.787+00:00" ModifiedDate="2015-12-14T04:25:13.898+00:00">
+                    <common_v33_0:BookingTravelerRef Key="bnROcHRmZzdERzZNZEtYdg=="/>
+                    <common_v33_0:BookingTravelerRef Key="NHk4d1NzUjc2aUxQOXdMcQ=="/>
+                    <common_v33_0:BookingTravelerRef Key="cXZZTDFhTnA5bDdXTWUwag=="/>
+                    <common_v33_0:BookingTravelerRef Key="Y0ptcWxuaG9OTVQyek45dA=="/>
+                    <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                    <air:AirSegment Key="UGVL8I1oS5CnDBN39L98DQ==" Group="0" Carrier="9W" CabinClass="Economy" FlightNumber="255" ProviderCode="1P" Origin="CMB" Destination="BOM" DepartureTime="2016-01-14T06:10:00.000+05:30" ArrivalTime="2016-01-14T08:45:00.000+05:30" TravelTime="155" Distance="948" ClassOfService="N" ETicketability="Yes" Status="HK" ChangeOfPlane="false" ProviderReservationInfoRef="cAb1xxsuRzWxLDC7nZ7cwA==" TravelOrder="1" OptionalServicesIndicator="false" ElStat="A">
+                        <air:FlightDetails Key="u6V/xdCOQcKpOx34L/26EQ==" Origin="CMB" Destination="BOM" DepartureTime="2016-01-14T06:10:00.000+05:30" ArrivalTime="2016-01-14T08:45:00.000+05:30" FlightTime="155" TravelTime="155" Distance="948" Equipment="737" DestinationTerminal="2" ElStat="A"/>
+                    </air:AirSegment>
+                    <air:AirPricingInfo Key="dNxu37LLQ2WVSDmRb40SwA==" TotalPrice="LKR34300" BasePrice="LKR30800" ApproximateTotalPrice="LKR34300" ApproximateBasePrice="LKR30800" Taxes="LKR3500" LatestTicketingTime="2016-01-14T23:59:00.000+05:30" PricingMethod="Auto" ProviderCode="1P" ProviderReservationInfoRef="cAb1xxsuRzWxLDC7nZ7cwA==" AirPricingInfoGroup="1" PricingType="TicketRecord" ElStat="A">
+                        <air:FareInfo Key="+nwlikR/Qf6q+BgHg1897g==" FareBasis="N2OWLK" PassengerTypeCode="ADT" Origin="CMB" Destination="BOM" EffectiveDate="2015-12-14T00:00:00.000+05:30" TravelDate="2016-01-14" DepartureDate="2016-01-14" Amount="NUC222.70" NotValidBefore="2016-01-14" NotValidAfter="2016-01-14" ElStat="A">
+                            <air:BaggageAllowance>
+                                <air:MaxWeight Value="30" Unit="Kilograms"/>
+                            </air:BaggageAllowance>
+                        </air:FareInfo>
+                        <air:BookingInfo BookingCode="N" FareInfoRef="+nwlikR/Qf6q+BgHg1897g==" SegmentRef="UGVL8I1oS5CnDBN39L98DQ=="/>
+                        <air:TaxInfo Category="LK" Amount="LKR3500" Key="bmwUNmoUS52s6G5rG5bieA=="/>
+                        <air:FareCalc>ADT CMB 9W BOM222.70NUC222.70END ROE138.30 9W</air:FareCalc>
+                        <air:PassengerType Code="ADT" BookingTravelerRef="bnROcHRmZzdERzZNZEtYdg=="/>
+                        <air:PassengerType Code="ADT" BookingTravelerRef="NHk4d1NzUjc2aUxQOXdMcQ=="/>
+                        <common_v33_0:BookingTravelerRef Key="bnROcHRmZzdERzZNZEtYdg=="/>
+                        <common_v33_0:BookingTravelerRef Key="NHk4d1NzUjc2aUxQOXdMcQ=="/>
+                    </air:AirPricingInfo>
+                </air:AirReservation>
+                <common_v33_0:AgencyInfo>
+                    <common_v33_0:AgentAction ActionType="Created" AgentCode="UAPI4025719287-CA2A7CC1" BranchCode="P7026977" AgencyCode="S7026969" EventTime="2015-12-14T04:25:09.576+00:00"/>
+                </common_v33_0:AgencyInfo>
+                <common_v33_0:FormOfPayment Key="4UqHW6LEQLqaZZYXWKjJcg==" Type="Credit" Reusable="false" ProfileKey="Jy3ju889Sl2VjQ0JCqDxcw==" ElStat="A">
+                    <common_v33_0:CreditCard Type="VI" Number="************1111" ExpDate="2015-12" Name="John Smith"/>
+                    <common_v33_0:ProviderReservationInfoRef Key="cAb1xxsuRzWxLDC7nZ7cwA=="/>
+                </common_v33_0:FormOfPayment>
+            </universal:UniversalRecord>
+            <air:AirSolutionChangedInfo ReasonCode="Price">
+                <air:AirPricingSolution Key="26IXpVaXSgC7XwDBSTQYuA==">
+                    <air:AirSegment Key="UGVL8I1oS5CnDBN39L98DQ==" Group="0" Carrier="9W" FlightNumber="255" ProviderCode="1P" Origin="CMB" Destination="BOM" DepartureTime="2016-01-14T06:10:00.000+05:30" ArrivalTime="2016-01-14T08:45:00.000+05:30" TravelTime="155" ClassOfService="N" Status="NN" GuaranteedPaymentCarrier="No" TravelOrder="1" OptionalServicesIndicator="false"/>
+                    <air:AirPricingInfo Key="dNxu37LLQ2WVSDmRb40SwA==" TotalPrice="SGD339.50" BasePrice="LKR157.00" ApproximateTotalPrice="LKR35668" ApproximateBasePrice="LKR157.00" Taxes="SGD176.50" PricingMethod="Auto" ProviderCode="1P" AirPricingInfoGroup="1" PricingType="TicketRecord">
+                        <air:FareInfo Key="+nwlikR/Qf6q+BgHg1897g==" FareBasis="NOWLK" PassengerTypeCode="ADT" Origin="CMB" Destination="SIN" EffectiveDate="2015-12-10T17:16:56.649+05:30" TravelDate="2016-01-14" DepartureDate="0001-01-01" Amount="SGD163.00" PromotionalFare="false">
+                            <air:FareRuleKey FareInfoRef="+nwlikR/Qf6q+BgHg1897g==" ProviderCode="1P">
+                                2IW4YRoHBBROEH0Rjy5o1dDxEyNr43NJk0yjFiQUZo7THn1j/WvNyUXtoJLnReWZa0SVK0v5KdEPcDzmZU8z8WZhag+VuWAQ
+                            </air:FareRuleKey>
+                        </air:FareInfo>
+                        <air:BookingInfo BookingCode="N" FareInfoRef="+nwlikR/Qf6q+BgHg1897g==" SegmentRef="UGVL8I1oS5CnDBN39L98DQ=="/>
+                        <air:PassengerType Code="ADT" BookingTravelerRef="bnROcHRmZzdERzZNZEtYdg=="/>
+                        <air:PassengerType Code="ADT" BookingTravelerRef="NHk4d1NzUjc2aUxQOXdMcQ=="/>
+                        <common_v33_0:BookingTravelerRef Key="bnROcHRmZzdERzZNZEtYdg=="/>
+                        <common_v33_0:BookingTravelerRef Key="NHk4d1NzUjc2aUxQOXdMcQ=="/>
+                    </air:AirPricingInfo>
+                </air:AirPricingSolution>
+            </air:AirSolutionChangedInfo>
+        </universal:AirCreateReservationRsp>
+    </SOAP:Body>
+</SOAP:Envelope>
